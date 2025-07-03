@@ -5,6 +5,7 @@ export interface Event {
   location: string;
   description: string;
   fullDescription: string;
+  category: string;
 }
 
 const eventsData: Event[] = [
@@ -14,7 +15,8 @@ const eventsData: Event[] = [
     "date": "2023-10-15",
     "location": "San Francisco, CA",
     "description": "Annual tech conference featuring latest innovations",
-    "fullDescription": "Three-day conference covering AI, blockchain, and cloud computing with keynote speakers from leading tech companies."
+    "fullDescription": "Three-day conference covering AI, blockchain, and cloud computing with keynote speakers from leading tech companies.",
+    "category" : "Technology"
   },
   {
     "id": "2",
@@ -22,7 +24,8 @@ const eventsData: Event[] = [
     "date": "2023-11-05",
     "location": "Austin, TX",
     "description": "Weekend music festival with various artists",
-    "fullDescription": "Three-day outdoor music festival featuring over 50 artists across multiple stages. Food trucks and art installations available."
+    "fullDescription": "Three-day outdoor music festival featuring over 50 artists across multiple stages. Food trucks and art installations available.",
+    "category" : "Technology"
   },
   {
     "id": "3",
@@ -30,7 +33,8 @@ const eventsData: Event[] = [
     "date": "2024-01-12",
     "location": "Bangalore",
     "description": "A meetup for developers interested in Next.js",
-    "fullDescription": "Learn and share ideas about Next.js, performance optimizations, App Router vs Pages Router, and real-world projects."
+    "fullDescription": "Learn and share ideas about Next.js, performance optimizations, App Router vs Pages Router, and real-world projects.",
+    "category" : "Technology"
   },
   {
     "id": "4",
@@ -38,7 +42,8 @@ const eventsData: Event[] = [
     "date": "2024-02-18",
     "location": "Mumbai",
     "description": "Startups pitch their ideas to investors",
-    "fullDescription": "Early-stage startups pitch to VCs and angel investors. Great for networking, learning, and innovation exposure."
+    "fullDescription": "Early-stage startups pitch to VCs and angel investors. Great for networking, learning, and innovation exposure.",
+    "category" : "Technology"
   },
   {
     "id": "5",
@@ -46,7 +51,8 @@ const eventsData: Event[] = [
     "date": "2024-03-10",
     "location": "Delhi",
     "description": "Summit for data professionals",
-    "fullDescription": "Deep-dive sessions on machine learning, data engineering, and AI ethics with speakers from Google, Microsoft, and startups."
+    "fullDescription": "Deep-dive sessions on machine learning, data engineering, and AI ethics with speakers from Google, Microsoft, and startups.",
+    "category" : "Technology"
   },
   {
     "id": "6",
@@ -54,7 +60,8 @@ const eventsData: Event[] = [
     "date": "2024-04-20",
     "location": "Chennai",
     "description": "Hands-on web development bootcamp",
-    "fullDescription": "One-week intensive bootcamp covering HTML, CSS, JavaScript, React, and deployment using Vercel and Netlify."
+    "fullDescription": "One-week intensive bootcamp covering HTML, CSS, JavaScript, React, and deployment using Vercel and Netlify.",
+    "category" : "Technology"
   },
   {
     "id": "7",
@@ -62,7 +69,8 @@ const eventsData: Event[] = [
     "date": "2024-06-15",
     "location": "Hyderabad",
     "description": "Collaborate on open source projects",
-    "fullDescription": "Contribute to GitHub projects, earn swag, and learn from maintainers of major open source libraries and frameworks."
+    "fullDescription": "Contribute to GitHub projects, earn swag, and learn from maintainers of major open source libraries and frameworks.",
+    "category" : "Technology"
   },
   {
     "id": "8",
@@ -70,7 +78,8 @@ const eventsData: Event[] = [
     "date": "2024-08-25",
     "location": "Pune",
     "description": "Conference on modern cybersecurity practices",
-    "fullDescription": "Explore zero trust architecture, ethical hacking, and compliance with global experts and CISOs from top companies."
+    "fullDescription": "Explore zero trust architecture, ethical hacking, and compliance with global experts and CISOs from top companies.",
+    "category" : "Technology"
   },
   {
     "id": "9",
@@ -78,7 +87,8 @@ const eventsData: Event[] = [
     "date": "2024-09-10",
     "location": "Kolkata",
     "description": "Expo on CI/CD and cloud-native DevOps",
-    "fullDescription": "Sessions and demos on Kubernetes, Docker, GitHub Actions, and multi-cloud deployments from top Indian tech teams."
+    "fullDescription": "Sessions and demos on Kubernetes, Docker, GitHub Actions, and multi-cloud deployments from top Indian tech teams.",
+    "category" : "Technology"
   },
   {
     "id": "10",
@@ -86,7 +96,8 @@ const eventsData: Event[] = [
     "date": "2024-10-05",
     "location": "Ahmedabad",
     "description": "AI made accessible for all developers",
-    "fullDescription": "Talks and workshops on AI-powered apps using tools like Hugging Face, OpenAI, and TensorFlow Lite."
+    "fullDescription": "Talks and workshops on AI-powered apps using tools like Hugging Face, OpenAI, and TensorFlow Lite.",
+    "category" : "Technology"
   }
 ]
 ;
