@@ -1,7 +1,8 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Head from 'next/head';
 import events from '../../data/events';
-import {  Event } from '../../data/events';
+import { Event } from '../../data/events';
+import Link from 'next/link';
 
 interface EventDetailsProps {
   event: Event;
@@ -9,20 +10,33 @@ interface EventDetailsProps {
 
 export default function EventDetails({ event }: EventDetailsProps) {
   return (
-    <div>
+    <div className="bg-gray-50 min-h-screen text-gray-800">
       <Head>
         <title>{event.title} | Events Explorer</title>
         <meta name="description" content={event.description} />
       </Head>
 
-      <main className="container mx-auto px-4 py-8">
-        <article>
-          <h1 className="text-3xl font-bold mb-4">{event.title}</h1>
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <p className="text-gray-600 mb-2"><strong>Date:</strong> {event.date}</p>
-            <p className="text-gray-600 mb-4"><strong>Location:</strong> {event.location}</p>
-            <p className="text-gray-700">{event.fullDescription}</p>
+      <main className="container mx-auto px-4 py-12">
+        <Link
+          href="/"
+          className="inline-block mb-6 text-blue-600 hover:underline text-sm"
+        >
+          ← Back to Events
+        </Link>
+
+        <article className="bg-white rounded-xl shadow-lg p-8">
+          <h1 className="text-4xl font-bold mb-4 text-gray-900">{event.title}</h1>
+
+          <div className="mb-6 text-sm text-gray-600 space-y-1">
+            <p><span className="font-medium">📅 Date:</span> {event.date}</p>
+            <p><span className="font-medium">📍 Location:</span> {event.location}</p>
           </div>
+
+          <hr className="my-6" />
+
+          <p className="text-gray-700 text-lg leading-relaxed">
+            {event.fullDescription}
+          </p>
         </article>
       </main>
     </div>
@@ -30,7 +44,7 @@ export default function EventDetails({ event }: EventDetailsProps) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = events.map(event => ({
+  const paths = events.map((event) => ({
     params: { id: event.id },
   }));
 
@@ -38,6 +52,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const event = events.find(e => e.id === params?.id);
+  const event = events.find((e) => e.id === params?.id);
   return { props: { event } };
 };

@@ -12,7 +12,7 @@ const eventsData: Event[] = [
   {
     "id": "1",
     "title": "Tech Conference 2023",
-    "date": "2023-10-15",
+    "date": "2025-10-15",
     "location": "San Francisco, CA",
     "description": "Annual tech conference featuring latest innovations",
     "fullDescription": "Three-day conference covering AI, blockchain, and cloud computing with keynote speakers from leading tech companies.",
@@ -21,16 +21,16 @@ const eventsData: Event[] = [
   {
     "id": "2",
     "title": "Music Festival",
-    "date": "2023-11-05",
+    "date": "2025-11-05",
     "location": "Austin, TX",
     "description": "Weekend music festival with various artists",
     "fullDescription": "Three-day outdoor music festival featuring over 50 artists across multiple stages. Food trucks and art installations available.",
-    "category" : "Technology"
+    "category" : "Music"
   },
   {
     "id": "3",
     "title": "Next.js Meetup",
-    "date": "2024-01-12",
+    "date": "2026-01-12",
     "location": "Bangalore",
     "description": "A meetup for developers interested in Next.js",
     "fullDescription": "Learn and share ideas about Next.js, performance optimizations, App Router vs Pages Router, and real-world projects.",
@@ -38,26 +38,26 @@ const eventsData: Event[] = [
   },
   {
     "id": "4",
-    "title": "Startup Pitch Day",
-    "date": "2024-02-18",
-    "location": "Mumbai",
-    "description": "Startups pitch their ideas to investors",
-    "fullDescription": "Early-stage startups pitch to VCs and angel investors. Great for networking, learning, and innovation exposure.",
-    "category" : "Technology"
+    "title": "Design Conference",
+    "date": "2025-09-22",
+    "location": "New York, NY",
+    "description": "Exploring the future of UX/UI design and digital experiences",
+    "fullDescription": "Two-day conference for designers, developers, and product managers. Learn about the latest design trends, tools, and methodologies from industry experts.",
+    "category": "Design"
   },
   {
     "id": "5",
     "title": "Data Science Summit",
-    "date": "2024-03-10",
+    "date": "2026-03-10",
     "location": "Delhi",
     "description": "Summit for data professionals",
     "fullDescription": "Deep-dive sessions on machine learning, data engineering, and AI ethics with speakers from Google, Microsoft, and startups.",
-    "category" : "Technology"
+    "category" : "Education"
   },
   {
     "id": "6",
     "title": "Web Dev Bootcamp",
-    "date": "2024-04-20",
+    "date": "2026-04-20",
     "location": "Chennai",
     "description": "Hands-on web development bootcamp",
     "fullDescription": "One-week intensive bootcamp covering HTML, CSS, JavaScript, React, and deployment using Vercel and Netlify.",
@@ -66,7 +66,7 @@ const eventsData: Event[] = [
   {
     "id": "7",
     "title": "Open Source Hackathon",
-    "date": "2024-06-15",
+    "date": "2025-06-15",
     "location": "Hyderabad",
     "description": "Collaborate on open source projects",
     "fullDescription": "Contribute to GitHub projects, earn swag, and learn from maintainers of major open source libraries and frameworks.",
@@ -75,7 +75,7 @@ const eventsData: Event[] = [
   {
     "id": "8",
     "title": "Cybersecurity Conference",
-    "date": "2024-08-25",
+    "date": "2025-08-25",
     "location": "Pune",
     "description": "Conference on modern cybersecurity practices",
     "fullDescription": "Explore zero trust architecture, ethical hacking, and compliance with global experts and CISOs from top companies.",
@@ -84,7 +84,7 @@ const eventsData: Event[] = [
   {
     "id": "9",
     "title": "DevOps India Expo",
-    "date": "2024-09-10",
+    "date": "2025-09-10",
     "location": "Kolkata",
     "description": "Expo on CI/CD and cloud-native DevOps",
     "fullDescription": "Sessions and demos on Kubernetes, Docker, GitHub Actions, and multi-cloud deployments from top Indian tech teams.",
@@ -92,14 +92,23 @@ const eventsData: Event[] = [
   },
   {
     "id": "10",
-    "title": "AI for All Seminar",
-    "date": "2024-10-05",
-    "location": "Ahmedabad",
-    "description": "AI made accessible for all developers",
-    "fullDescription": "Talks and workshops on AI-powered apps using tools like Hugging Face, OpenAI, and TensorFlow Lite.",
-    "category" : "Technology"
+    "title": "Food & Wine Expo",
+    "date": "2025-10-28",
+    "location": "San Francisco, CA",
+    "description": "Gourmet tasting experience with world-class chefs",
+    "fullDescription": "Experience the finest culinary creations from award-winning chefs. Taste exquisite wines, attend cooking demonstrations, and learn from master sommeliers.",
+    "category": "Food"
+  },
+  {
+     "id": "11",
+    "title": "Startup Pitch Night",
+    "date": "2025-09-30",
+    "location": "Kolkata, India",
+    "description": "Watch emerging startups pitch to top investors",
+    "fullDescription": "An evening of innovation where 10 selected startups present their ideas to a panel of investors. Networking reception follows the pitches.",
+    "category": "Business"
   }
 ]
 ;
 
-export default eventsData; // Changed to default export
+export default eventsData; 

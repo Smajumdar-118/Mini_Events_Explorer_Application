@@ -7,7 +7,6 @@ export default function EventCard({ event }: { event: Event }) {
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden transition-all hover:shadow-xl h-full flex flex-col border border-gray-200 hover:border-indigo-100">
         {/* Event Image Placeholder */}
         <div className="relative h-48 bg-gradient-to-r from-purple-500 to-indigo-600">
-          {/* Only show category tag if category exists */}
           {event.category && (
             <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-semibold text-indigo-700">
               {event.category}
