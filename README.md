@@ -33,34 +33,9 @@ This project was built with performance, responsiveness, and static generation i
 
 ## 📂 Folder Structure
 
-/events-explorer
-│
-├── components/
-│ ├── EventCard.tsx
-│ └── EventFilter.tsx
-│
-├── data/
-│ └── events.ts
-│
-├── pages/
-│ ├── events/
-│ │ └── [id].tsx
-│ ├── _app.tsx
-│ └── index.tsx
-│
-├── public/
-│ └── favicon.ico
-│ └── screenshot-home.png
-│ └── screenshot-detail.png
-│
-├── styles/
-│ └── globals.css
-│
-├── tailwind.config.js
-├── postcss.config.js
-├── tsconfig.json
-├── package.json
-└── README.md ✅ (Paste the full version above)
+![image](https://github.com/user-attachments/assets/994de5b4-68be-4ca7-af60-484df5c125dd)
+
+
 
 
 ---
@@ -81,15 +56,15 @@ This project was built with performance, responsiveness, and static generation i
 
 Follow these steps to run the project locally:
 
-npm install
-npm run dev
+### 1. **Clone the Repository**
+
+2. npm install
+3. npm run dev
 
 ---
 
-#### 🧠 Improvements (Given More Time)
+#### 🧠 Improvements 
 
-```md
-## 🧠 Improvements (Given More Time)
 
 If additional time were available, the following improvements could be made:
 
