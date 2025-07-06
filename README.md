@@ -75,4 +75,4 @@ If additional time were available, the following improvements could be made:
 - Improve test coverage (Jest, Testing Library)
 - Add CI/CD and deploy to Vercel or Netlify
 
-👉 [Live Site]([https://your-vercel-deployment-url.vercel.app](https://mini-events-explorer-application.vercel.app/))
+👉 [Live Site]((https://mini-events-explorer-application.vercel.app/))
